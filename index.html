@@ -11,15 +11,16 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
+    <!-- Logo Website-->
+    <link rel="shortcut icon" href="img/logo.png" >
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <title>My Portofolio | Syukur Iman Attaqwa</title>
 
-    <!-- Logo Website-->
-    <link rel="shortcut icon" href="img/logo.png"
-
   </head>
+  
   <body id="home">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
@@ -82,7 +83,8 @@
           <div class="col-md-5">
             <p>
               Saya saat ini sedang mendalami dan mencoba berbagai bahasa pemrograman. Seperti bahasa pemrograman C/C++, Kotlin, Html, Golang, Python dan masih banyak lagi.
-              Saya juga sering membantu teman saya dalam mendesain banner dan mengedit video youtubenya.  
+              Selain itu, saya juga sanggat tertarik untuk mendalami bidang desain grafis. Khusus di bidang editing foto dan video. 
+              
             </p>
           </div>
         </div>
@@ -118,7 +120,7 @@
             <div class="card">
               <img src="img/Projects/2.png" class="card-img-top" alt="project 2" />
               <div class="card-body">
-                <p class="card-text">Video Trailer Open Recruitment Pertemanan Sejiwa</p>
+                <p class="card-text">Freelancer Video Editing dan Desain Di <a href="https://www.youtube.com/c/PertemananSejiwa" class="text-success fw-bold" >Pertemanan Sejiwa</a></p>
               </div>
             </div>
           </div>
@@ -126,7 +128,7 @@
             <div class="card">
               <img src="img/Projects/3.jpg" class="card-img-top" alt="project 3" />
               <div class="card-body">
-                <p class="card-text">Desain Banner Youtube Pertemanan Sejiwa</p>
+                <p class="card-text">Kadiv Programming Komunitas Robot Upn Veteran Jawa Timur 2021-2022</p>
               </div>
             </div>
           </div>
@@ -134,7 +136,7 @@
             <div class="card">
               <img src="img/Projects/4.jpg" class="card-img-top" alt="project 4" />
               <div class="card-body">
-                <p class="card-text">Belajar membuat aplikasi android untuk pemula</p>
+                <p class="card-text">Sertifikat Lulus Kelas Pemrograman di Dicoding Indonesia</p>
               </div>
             </div>
           </div>
@@ -142,7 +144,7 @@
             <div class="card">
               <img src="img/Projects/5.jpg" class="card-img-top" alt="project 5" />
               <div class="card-body">
-                <p class="card-text">Memulai pemrograman dengan kotllin</p>
+                <p class="card-text">Webinar yang di Adakan oleh Dicoding Indonesia</p>
               </div>
             </div>
           </div>
@@ -151,6 +153,14 @@
               <img src="img/Projects/6.jpg" class="card-img-top" alt="project 6" />
               <div class="card-body">
                 <p class="card-text">Online course Go programming </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/Projects/7.png" class="card-img-top" alt="project 7" />
+              <div class="card-body">
+                <p class="card-text">Kegiatan Sie Korohanian Islam</p>
               </div>
             </div>
           </div>
@@ -185,11 +195,14 @@
             <form name="form-contact">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="name"/>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="name" required/>
+                <div class="invalid-feedback">
+                  Mohon isi terlebih dahulu.
+                </div>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
